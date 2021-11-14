@@ -35,4 +35,8 @@
     <string name="yes">YES</string>
     <string name="no">NO</string>
 
+    <string name="get_ready">GET READY FOR</string>
+    <string name="upcoming_exercise">UPCOMING EXERCISE:</string>
+    <string name="stop">STOP</string>
+
 </resources>

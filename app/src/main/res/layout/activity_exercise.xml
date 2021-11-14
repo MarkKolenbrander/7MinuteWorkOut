@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GET READY FOR"
+            android:text="@string/get_ready"
             android:textColor="@color/colorMain"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -61,7 +61,7 @@
                     android:id="@+id/tvTimer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10"
+                    tools:text="10"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="UPCOMING EXERCISE:"
+            android:text="@string/upcoming_exercise"
             android:textColor="@color/colorHighLighted"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -95,7 +95,7 @@
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginTop="220dp"
-            android:text="STOP"
+            android:text="@string/stop"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="20sp"
@@ -132,7 +132,7 @@
             android:id="@+id/tvExerciseName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exercise name"
+            tools:text="Exercise name"
             android:textColor="@color/colorMain"
             android:textSize="22sp"
             android:textStyle="bold"
@@ -171,7 +171,7 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:textStyle="bold"
-                    android:text="30"/>
+                    tools:text="30"/>
             </LinearLayout>
         </FrameLayout>
 
@@ -180,7 +180,7 @@
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
-            android:text="STOP"
+            android:text="@string/stop"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="20sp"
